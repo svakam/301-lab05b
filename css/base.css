@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+main {
+  border: black solid 2px;
+}
+
+#a {
+  background-color: red;
+}
+
+#b {
+  background-color: blue;
+}
+
+#c {
+  background-color: green;
+}
+
+#d {
+  background-color: yellow;
+}
+
+#e {
+  background-color: magenta;
+}
+
+#f {
+  background-color: turquoise;
+}
+
+#g {
+  background-color: darkgray;
+}
+
+#h {
+  background-color: lightcoral;
+}
+
+#i {
+  background-color: darkslateblue;
+}

@@ -1,0 +1,44 @@
+html {
+  width: 480px;
+}
+
+#a {
+  height: 75px;
+  line-height: 75px;
+}
+
+#b {
+  height: 150px;
+  line-height: 150px;
+}
+
+#c, #d {
+  height: 125px;
+  line-height: 125px;
+}
+
+#sectionef {
+  display: flex;
+}
+
+#sectiongh {
+  display: flex;
+}
+
+#e, #f, #g, #h {
+  width: 50%;
+  height: 250px;
+  line-height: 250px;
+}
+
+#i {
+  height: 80px;
+  line-height: 80px;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  html {
+    width: 960px;
+  }
+}
