@@ -1,3 +1,4 @@
+/* mobile first */ 
 html {
   width: 480px;
 }
@@ -36,9 +37,56 @@ html {
   line-height: 80px;
 }
 
+/* tablet */ 
+@media (min-width: 700px) {
+  html {
+    width: 740px;
+  }
+}
+
 /* desktop */
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   html {
     width: 960px;
+  }
+
+  #bigsection {
+    display: flex;
+  }
+
+  #a {
+    height: 100px;
+    line-height: 100px;
+  }
+
+  #sectionefgh {
+    display: flex;
+  }
+
+  #b {
+    height: 600px;
+    width: 200px;
+    line-height: 600px;
+  }
+
+  #cd {
+    display: flex;
+  }
+
+  #c, #d {
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  }
+
+  #e, #f, #g, #h {
+    width: 190px;
+    height: 250px;
+  }
+
+  #i {
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
   }
 }

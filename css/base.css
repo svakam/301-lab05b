@@ -42,3 +42,81 @@ main {
 #i {
   background-color: darkslateblue;
 }
+
+/* tablet */
+@media (min-width: 700px) {
+  #a {
+    background-color: blue;
+  }
+  
+  #b {
+    background-color: red;
+  }
+  
+  #c {
+    background-color: yellow;
+  }
+  
+  #d {
+    background-color: green;
+  }
+  
+  #e {
+    background-color: turquoise;
+  }
+  
+  #f {
+    background-color: magenta;
+  }
+  
+  #g {
+    background-color: lightcoral;
+  }
+  
+  #h {
+    background-color: lightgray;
+  }
+  
+  #i {
+    background-color: black;
+  }
+}
+
+/* desktop */
+@media (min-width: 900px) {
+  #a {
+    background-color: yellow;
+  }
+  
+  #b {
+    background-color: blue;
+  }
+  
+  #c {
+    background-color: red;
+  }
+  
+  #d {
+    background-color: magenta;
+  }
+  
+  #e {
+    background-color: green;
+  }
+  
+  #f {
+    background-color: turquoise;
+  }
+  
+  #g {
+    background-color: black;
+  }
+  
+  #h {
+    background-color: lightcoral;
+  }
+  
+  #i {
+    background-color: lightgray;
+  }
+}
